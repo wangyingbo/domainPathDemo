@@ -42,8 +42,8 @@
         self.imageView.image = nil;
     }else {
         UIImage *image = [UIImage imageNamed:@"launch"];
-        [YBDomainPathTool saveData:UIImagePNGRepresentation(image) name:@"mine/test"];
-        self.imageView.image = [UIImage imageWithData:[YBDomainPathTool getDataWithName:@"mine/test"]];
+        [YBDomainPathTool saveData:UIImagePNGRepresentation(image) name:@"1530/5042856/signPic"];
+        self.imageView.image = [UIImage imageWithData:[YBDomainPathTool getDataWithName:@"1530/5042856/signPic"]];
     }
 }
 
